@@ -6,7 +6,6 @@
 Ext.define('app.view.main.Main', {
     extend: 'Ext.tab.Panel',
     xtype: 'app-main',
-
     requires: [
         'Ext.MessageBox',
         'Ext.layout.Fit'
@@ -26,7 +25,7 @@ Ext.define('app.view.main.Main', {
     items: [
         // TODO - Replace the content of this view to suit the needs of your application.
         {
-            title: 'Home',
+            title: 'Home123',
             iconCls: 'x-fa fa-home',
             layout: 'fit',
             // The following grid shares a store with the classic version's grid as well!
