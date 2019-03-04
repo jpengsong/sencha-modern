@@ -1,9 +1,9 @@
-Ext.define('app.store.Personnel', {
+Ext.define('App.store.Personnel', {
     extend: 'Ext.data.Store',
 
     alias: 'store.personnel',
 
-    model: 'app.model.Personnel',
+    model: 'App.model.Personnel',
 
     data: { items: [
         { name: 'Jean Luc', email: "jeanluc.picard@enterprise.com", phone: "555-111-1111" },

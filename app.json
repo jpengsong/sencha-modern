@@ -1,10 +1,10 @@
 {
-    "name": "app",
-    "namespace": "app",
+    "name": "App",
+    "namespace": "App",
     "version": "1.0.0.0",
     "framework": "ext",
     "toolkit": "modern",
-    "theme": "theme-triton",
+    "theme": "theme-material",
 
     /**
      * The list of required packages (with optional versions; default is "latest").
@@ -64,13 +64,13 @@
     "sass": {
         /**
          * The root namespace to use when mapping *.scss files to classes in the
-         * sass/src and sass/var directories. For example, "app.view.Foo" would
-         * map to "sass/src/view/Foo.scss". If we changed this to "app.view" then
+         * sass/src and sass/var directories. For example, "App.view.Foo" would
+         * map to "sass/src/view/Foo.scss". If we changed this to "App.view" then
          * it would map to "sass/src/Foo.scss". To style classes outside the app's
          * root namespace, change this to "". Doing so would change the mapping of
-         * "app.view.Foo" to "sass/src/app/view/Foo.scss".
+         * "App.view.Foo" to "sass/src/App/view/Foo.scss".
          */
-        "namespace": "app",
+        "namespace": "App",
 
         /**
          * Generated sass source settings
@@ -478,5 +478,5 @@
      * Uniquely generated id for this application, used as prefix for localStorage keys.
      * Normally you should never change this value.
      */
-    "id": "668a72e5-959b-40a2-b52b-505d0040cec5"
+    "id": "a1f50716-6837-4914-b87d-2dce3dba0dfb"
 }

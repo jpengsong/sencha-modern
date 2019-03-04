@@ -3,9 +3,10 @@
  * "mainView" property. That setting causes an instance of this class to be created and
  * added to the Viewport container.
  */
-Ext.define('app.view.main.Main', {
+Ext.define('App.view.main.Main', {
     extend: 'Ext.tab.Panel',
     xtype: 'app-main',
+
     requires: [
         'Ext.MessageBox',
         'Ext.layout.Fit'
@@ -25,7 +26,7 @@ Ext.define('app.view.main.Main', {
     items: [
         // TODO - Replace the content of this view to suit the needs of your application.
         {
-            title: 'Home123',
+            title: 'Home',
             iconCls: 'x-fa fa-home',
             layout: 'fit',
             // The following grid shares a store with the classic version's grid as well!
