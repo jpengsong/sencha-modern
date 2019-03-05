@@ -59,43 +59,6 @@ Ext.define('App.view.main.Home', {
                         pack: "center"
                     },
                     items: [
-                        {
-                            xtype: "container",
-                            layout: {
-                                type: "hbox",
-                                align: "stretch",
-                                pack: "center"
-                            },
-                            defaultType: "button",
-                            defaults:{
-                                margin:"10 10",
-                                height:100,
-                                iconCls:"main-table-btn",
-                                style:{
-                                    
-                                }
-                            },
-                            items: [
-                                {
-                                    text: 'Button',
-                                    iconAlign:"top",
-                                    icon:"resources/images/main/table/btn1.jpg",
-                                    flex: 1
-                                },
-                                {
-                                    text: 'Button',
-                                    iconAlign:"top",
-                                    icon:"resources/images/main/table/btn1.jpg",
-                                    flex: 1
-                                },
-                                {
-                                    text: 'Button',
-                                    iconAlign:"top",
-                                    icon:"resources/images/main/table/btn1.jpg",
-                                    flex: 1
-                                }
-                            ]
-                        },
                         
                         {
                             xtype: "container",
@@ -108,10 +71,7 @@ Ext.define('App.view.main.Home', {
                             defaults:{
                                 margin:"10 10",
                                 height:100,
-                                iconCls:"main-table-btn",
-                                style:{
-                                    
-                                }
+                                iconCls:"main-table-btn-size"
                             },
                             items: [
                                 {
@@ -145,7 +105,41 @@ Ext.define('App.view.main.Home', {
                             defaults:{
                                 margin:"10 10",
                                 height:100,
-                                iconCls:"main-table-btn"
+                                iconCls:"main-table-btn-size"
+                            },
+                            items: [
+                                {
+                                    text: 'Button',
+                                    iconAlign:"top",
+                                    icon:"resources/images/main/table/btn1.jpg",
+                                    flex: 1
+                                },
+                                {
+                                    text: 'Button',
+                                    iconAlign:"top",
+                                    icon:"resources/images/main/table/btn1.jpg",
+                                    flex: 1
+                                },
+                                {
+                                    text: 'Button',
+                                    iconAlign:"top",
+                                    icon:"resources/images/main/table/btn1.jpg",
+                                    flex: 1
+                                }
+                            ]
+                        },
+                        {
+                            xtype: "container",
+                            layout: {
+                                type: "hbox",
+                                align: "stretch",
+                                pack: "center"
+                            },
+                            defaultType: "button",
+                            defaults:{
+                                margin:"10 10",
+                                height:100,
+                                iconCls:"main-table-btn-size"
                             },
                             items: [
                                 {
