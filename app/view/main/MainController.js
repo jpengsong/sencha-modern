@@ -15,5 +15,10 @@ Ext.define('App.view.main.MainController', {
         if (choice === 'yes') {
             //
         }
+    },
+
+    onTap:function(){
+        var me=this; refs = me.getReferences();
+        refs.tabpanel.setActiveItem(2);
     }
 });

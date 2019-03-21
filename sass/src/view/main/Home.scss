@@ -20,77 +20,8 @@
 /********************九宫格图标*************************/
 
 @include button-ui  (
-    // $ui:"main-table-btn",
-    // $border-color: red,
-    // $border-color-over: red,
-    // $border-color-focus: red,
-    // $border-color-pressed: red,
-    // $border-color-focus-over: red,
-    // $border-color-focus-pressed: red,
-    // $border-color-disabled: red,
-
-    // $background-color: red,
-    // $background-color-over: red,
-    // $background-color-focus: red,
-    // $background-color-pressed: red,
-    // $background-color-focus-over: red,
-    // $background-color-focus-pressed: red,
-    // $background-color-disabled: red,
-
-    // $color: red,
-    // $color-over: red,
-    // $color-focus: red,
-    // $color-pressed: red,
-    // $color-focus-over: red,
-    // $color-focus-pressed: red,
-    // $color-disabled: red,
-
-    // $inner-border-width: $button-default-inner-border-width,
-    // $inner-border-width-over: $button-default-inner-border-width-over,
-    // $inner-border-width-focus: $button-default-inner-border-width-focus,
-    // $inner-border-width-pressed: $button-default-inner-border-width-pressed,
-    // $inner-border-width-focus-over: $button-default-inner-border-width-focus-over,
-    // $inner-border-width-focus-pressed: $button-default-inner-border-width-focus-pressed,
-    // $inner-border-width-disabled: $button-default-inner-border-width-disabled,
-
-    $inner-border-color: red,
-    $inner-border-color-over: red,
-    $inner-border-color-focus: red,
-    $inner-border-color-pressed: red,
-    $inner-border-color-focus-over: red,
-    $inner-border-color-focus-pressed: red,
-    $inner-border-color-disabled: red
-
-    // $font-size: $button-small-font-size,
-    // $font-size-over: $button-small-font-size-over,
-    // $font-size-focus: $button-small-font-size-focus,
-    // $font-size-pressed: $button-small-font-size-pressed,
-    // $font-size-focus-over: $button-small-font-size-focus-over,
-    // $font-size-focus-pressed: $button-small-font-size-focus-pressed,
-    // $font-size-disabled: $button-small-font-size-disabled,
-
-    // $font-weight: $button-small-font-weight,
-    // $font-weight-over: $button-small-font-weight-over,
-    // $font-weight-focus: $button-small-font-weight-focus,
-    // $font-weight-pressed: $button-small-font-weight-pressed,
-    // $font-weight-focus-over: $button-small-font-weight-focus-over,
-    // $font-weight-focus-pressed: $button-small-font-weight-focus-pressed,
-    // $font-weight-disabled: $button-small-font-weight-disabled,
-
-    // $font-family: $button-small-font-family,
-    // $font-family-over: $button-small-font-family-over,
-    // $font-family-focus: $button-small-font-family-focus,
-    // $font-family-pressed: $button-small-font-family-pressed,
-    // $font-family-focus-over: $button-small-font-family-focus-over,
-    // $font-family-focus-pressed: $button-small-font-family-focus-pressed,
-    // $font-family-disabled: $button-small-font-family-disabled
+     $ui:"tablebtn",
+     $color:#555,
+     $pressed-color :#555,
+     $icon-size-big:60px
 );
-
-.main-table-btn-size{
-     width: 64px !important;
-     height: 64px !important;
-}
-
-.main-table-btn1-background{
-    background-image:url(images/main/table/btn1.jpg);
-}
