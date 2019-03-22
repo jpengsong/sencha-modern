@@ -13,11 +13,12 @@ Ext.define('App.view.main.MainController', {
 
     onConfirm: function (choice) {
         if (choice === 'yes') {
-            //
+            
         }
     },
 
-    onTap:function(){
+    //
+    onBarTap:function(){
         var me=this; refs = me.getReferences();
         refs.tabpanel.setActiveItem(2);
     }
