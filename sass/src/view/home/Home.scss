@@ -1,0 +1,60 @@
+@include titlebar-ui  (
+     $ui:"titlebar",
+     $background-color:$base-color,
+     $color:white
+);
+
+@include button-ui  (
+     $ui:"titlebar_btn",
+     $color:white,
+     $icon-color:white,
+     $pressed-color:white,
+     $focused-color:white,
+     $font-size: 20px,
+     $icon-font-size:20px
+);
+
+@include button-ui  (
+     $ui:"listbtn",
+     $font-size-big:13px,
+     $icon-size-big :50px,
+     $color:#575757,
+     $pressed-color:#575757,
+     $focused-color:#575757
+);
+
+@include button-ui  (
+     $ui:"orangebtn",
+     $font-size-big:13px,
+     $icon-size-big :50px,
+     $color:white,
+     $pressed-color:white,
+     $focused-color:white,
+     $background-color:#FF9D00,
+     $hovered-background-color:#FF9D00,
+     $pressed-background-color:#FF9D00,
+     $focused-background-color:#FF9D00,
+     $border-radius :0px
+);
+
+@include button-ui  (
+     $ui:"gulesbtn",
+     $font-size-big:13px,
+     $icon-size-big :50px,
+     $color:white,
+     $pressed-color:white,
+     $focused-color:white,
+     $background-color:#FF3A30,
+     $hovered-background-color:#FF3A30,
+     $pressed-background-color:#FF3A30,
+     $focused-background-color:#FF3A30,
+     $border-radius :0px
+);
+
+@include tab-ui(
+     $ui:"tab",
+     $line-height:15px !important, 
+     $font-size-big :12px !important,
+     $icon-size : 20px,
+     $padding:7px 10px !important
+)

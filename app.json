@@ -4,7 +4,7 @@
     "version": "1.0.0.0",
     "framework": "ext",
     "toolkit": "modern",
-    "theme": "theme-ios1",
+    "theme": "theme-green",
     /**
      * The list of required packages (with optional versions; default is "latest").
      *
@@ -15,8 +15,11 @@
      *      ]
      */
     "requires": [
-        "font-awesome"
+        "ux",
+        "font-awesome",
+        "charts"
     ],
+    "locale": "zh_CN",
     /**
      * The relative path to the application's markup file (html, jsp, asp, etc.).
      */
@@ -146,6 +149,7 @@
          *      +-----------------+
          */
         "src": [
+            "sass/var/all.scss",
             "sass/src"
         ]
     },

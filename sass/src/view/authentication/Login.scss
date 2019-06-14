@@ -1,0 +1,42 @@
+.authentication_login{
+    border-radius: 0px;
+    .x-dialog-body-el{
+        background-image:url(/resources/images/authentication/lock-screen-background.jpg);
+         background-size: 100% 100%;
+         background-repeat:no-repeat
+    }
+
+    .x-body-el,.x-panel{
+        background-color:transparent;
+    }
+    
+    .x-textfield .x-input-el{
+        color:#fff !important;
+    }
+
+    .x-textfield .x-input-wrap-el{
+        background-color:transparent !important;
+    }
+
+    .x-dialog-outer-border-rbl {
+        border-right-color: transparent !important;
+        border-right-width: 0px !important;
+        border-bottom-color: transparent !important;
+        border-bottom-width: 0px !important;
+        border-left-color: transparent !important;
+        border-left-width: 0px !important;
+        border-radius: 0 0;
+    }
+
+    .x-dialog-outer-border-trbl {
+        border-color: transparent !important;
+        border-width: 0px !important;
+        border-radius: 0px;
+    }
+}
+
+.x-button-btnback{
+    background-color: $base-color;
+    color:white;
+    border-radius:0px;
+}

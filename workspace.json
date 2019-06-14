@@ -3,7 +3,9 @@
      *  An array of the paths to all the applications present in this workspace
      */
     "apps": [
-        "packages/local/theme-ios1/.sencha/temp/Themer"
+        "packages/local/theme-ios1/.sencha/temp/Themer",
+        "packages/local/theme-green/.sencha/temp/Themer",
+        "packages/local/theme2/.sencha/temp/Themer"
     ],
 
     /**

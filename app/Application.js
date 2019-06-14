@@ -1,23 +1,11 @@
-/**
- * The main application class. An instance of this class is created by app.js when it
- * calls Ext.application(). This is the ideal place to handle application launch and
- * initialization details.
- */
 Ext.define('App.Application', {
     extend: 'Ext.app.Application',
-
+    requires: [
+        'plugin.listswiper',
+        'Ext.chart.axis.*',
+        'Ext.chart.series.Bar',
+        'Ext.panel.Collapser'
+    ],
     name: 'App',
-
-    quickTips: false,
-    platformConfig: {
-        desktop: {
-            quickTips: true
-        }
-    },
-
-    launch: function() {
-        // Ext.Viewport.add({
-        //     xtype: 'main'
-        // });
-    }
+    quickTips: false
 });
